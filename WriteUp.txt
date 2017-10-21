@@ -1,0 +1,12 @@
+1. Value yang dihasilkan bernilai ganjil
+2. Sama halnya dengan kondisi if-else th if artinya jika kondisi benar maka akan mengembalikan nilai true sedangkan th unless mengembalikan nilai jika kondisinya salah. oleh karena itu kondisi pada th if dan th unless harus sama.
+3. Terjadi parsing error pada line th unless, karena kondisi pada th if dan th unless berbeda.
+4. Bisa dilakukan dengan cara <h3 th:text="${student.gpa} >= 3,49 ? 'Cum Laude' : 'Sangat Memuaskan '"></h3>
+5. Mereplace sebuah div dengan div pada file fragment.html dengan nama header dan footer
+6. Ya, dengan cara membuat file baru dalam folder error yang bernama 500.html
+
+Hal yang dipelajari dalam tutorial ini adalah
+1. Penggunaan th if,unless untuk menentukan conditional statement
+2. Penggunaan fragments, fragments digunakan agar html yang dibuat reusable dan meminimalisir error saat membuat tampilan.
+3. Membuat error page dengan cara membuat folder error
+4. Menggunakan datatable
